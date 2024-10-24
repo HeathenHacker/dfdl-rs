@@ -1,0 +1,12 @@
+[package]
+name = "dfdl"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0.210", optional = true }
+thiserror = "1.0.64"
+
+[features]
+default = ["serde"]
+serde = ["dep:serde"]

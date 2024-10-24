@@ -1,0 +1,214 @@
+is: Infoset {
+    dfdl_version: "1.0",
+    root_element: Some(
+        ComplexElement(
+            ComplexElement {
+                schema: "",
+                namespace: "world",
+                name: "hello",
+                nilled: false,
+                array: false,
+                valid: true,
+                union_member_schema: "",
+                children: [
+                    SimpleElement(
+                        SimpleElement {
+                            schema: "",
+                            namespace: "world",
+                            name: "hello",
+                            nilled: false,
+                            array: true,
+                            valid: true,
+                            union_member_schema: "",
+                            data: Some(
+                                UnsignedInt(
+                                    42,
+                                ),
+                            ),
+                        },
+                    ),
+                    SimpleElement(
+                        SimpleElement {
+                            schema: "",
+                            namespace: "world",
+                            name: "hello",
+                            nilled: false,
+                            array: true,
+                            valid: true,
+                            union_member_schema: "",
+                            data: Some(
+                                UnsignedInt(
+                                    42,
+                                ),
+                            ),
+                        },
+                    ),
+                    SimpleElement(
+                        SimpleElement {
+                            schema: "",
+                            namespace: "world",
+                            name: "hello",
+                            nilled: false,
+                            array: true,
+                            valid: true,
+                            union_member_schema: "",
+                            data: Some(
+                                UnsignedInt(
+                                    42,
+                                ),
+                            ),
+                        },
+                    ),
+                    SimpleElement(
+                        SimpleElement {
+                            schema: "",
+                            namespace: "world",
+                            name: "hello",
+                            nilled: false,
+                            array: true,
+                            valid: true,
+                            union_member_schema: "",
+                            data: Some(
+                                UnsignedInt(
+                                    42,
+                                ),
+                            ),
+                        },
+                    ),
+                    SimpleElement(
+                        SimpleElement {
+                            schema: "",
+                            namespace: "world",
+                            name: "hello",
+                            nilled: false,
+                            array: true,
+                            valid: true,
+                            union_member_schema: "",
+                            data: Some(
+                                UnsignedInt(
+                                    42,
+                                ),
+                            ),
+                        },
+                    ),
+                ],
+            },
+        ),
+    ),
+}
+hello test 1
+hello test 2
+is: Infoset {
+    dfdl_version: "1.0",
+    root_element: Some(
+        ComplexElement(
+            ComplexElement {
+                schema: "",
+                namespace: "world",
+                name: "hello",
+                nilled: false,
+                array: false,
+                valid: true,
+                union_member_schema: "",
+                children: [
+                    SimpleElement(
+                        SimpleElement {
+                            schema: "",
+                            namespace: "world",
+                            name: "arr",
+                            nilled: false,
+                            array: true,
+                            valid: true,
+                            union_member_schema: "",
+                            data: Some(
+                                UnsignedInt(
+                                    42,
+                                ),
+                            ),
+                        },
+                    ),
+                    SimpleElement(
+                        SimpleElement {
+                            schema: "",
+                            namespace: "world",
+                            name: "arr",
+                            nilled: false,
+                            array: true,
+                            valid: true,
+                            union_member_schema: "",
+                            data: Some(
+                                UnsignedInt(
+                                    42,
+                                ),
+                            ),
+                        },
+                    ),
+                    SimpleElement(
+                        SimpleElement {
+                            schema: "",
+                            namespace: "world",
+                            name: "arr",
+                            nilled: false,
+                            array: true,
+                            valid: true,
+                            union_member_schema: "",
+                            data: Some(
+                                UnsignedInt(
+                                    42,
+                                ),
+                            ),
+                        },
+                    ),
+                    SimpleElement(
+                        SimpleElement {
+                            schema: "",
+                            namespace: "world",
+                            name: "arr",
+                            nilled: false,
+                            array: true,
+                            valid: true,
+                            union_member_schema: "",
+                            data: Some(
+                                UnsignedInt(
+                                    42,
+                                ),
+                            ),
+                        },
+                    ),
+                    SimpleElement(
+                        SimpleElement {
+                            schema: "",
+                            namespace: "world",
+                            name: "arr",
+                            nilled: false,
+                            array: true,
+                            valid: true,
+                            union_member_schema: "",
+                            data: Some(
+                                UnsignedInt(
+                                    42,
+                                ),
+                            ),
+                        },
+                    ),
+                    SimpleElement(
+                        SimpleElement {
+                            schema: "",
+                            namespace: "world",
+                            name: "age",
+                            nilled: false,
+                            array: false,
+                            valid: true,
+                            union_member_schema: "",
+                            data: Some(
+                                UnsignedByte(
+                                    123,
+                                ),
+                            ),
+                        },
+                    ),
+                ],
+            },
+        ),
+    ),
+}

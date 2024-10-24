@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:dfdl="http://www.ogf.org/dfdl/dfdl-1.0/" xmlns:xs="http://www.w3.org/2001/XMLSchema" >
+<xs:annotation>
+  <xs:appinfo source="http://www.ogf.org/dfdl/">
+    <dfdl:format 
+        representation="binary" 
+        binaryNumberRep="binary"
+        binaryFloatRep="ieee"
+        byteOrder="littleEndian"
+        lengthKind="implicit"
+        lengthUnits="bytes"
+        alignmentUnits="bytes"
+        leadingSkip="0"
+        trailingSkip="0"
+        alignment="implicit"
+        encoding="utf-8"
+        initiator=""
+        terminator=""
+        separator=""
+        ignoreCase="no"
+        sequenceKind="ordered"
+        textOutputMinLength="0"
+        initiatedContent="no"
+        truncateSpecifiedLengthString="no"
+        textPadKind="none"
+        fillByte="f"
+        textBidi="no"
+        floating="no"
+        escapeSchemeRef=""
+        encodingErrorPolicy="replace"
+        bitOrder="mostSignificantBitFirst"
+        occursCountKind="implicit"
+    />
+  </xs:appinfo>
+</xs:annotation>
+<xs:element name="test">
+<xs:complexType> 
+  <xs:sequence >
+    <xs:element name="w" type="xs:int"/>
+    <xs:element name="x" type="xs:int"/>
+    <xs:element name="y" type="xs:double"/>
+    <xs:element name="z" type="xs:float"/>
+  </xs:sequence>
+</xs:complexType>
+</xs:element>
+
+</xs:schema>

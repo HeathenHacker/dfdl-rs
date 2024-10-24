@@ -1,0 +1,14 @@
+[package]
+name = "dfdl-test"
+version = "0.1.0"
+edition = "2021"
+[[bin]]
+name = "dfdl-test"
+path = "src/main.rs"
+
+[dependencies]
+dfdl = { version = "0.1.0", path = "../dfdl" }
+roxmltree = "0.20.0"
+serde = { version = "1.0.210", features = ["derive"] }
+thiserror = "1.0.64"
+xml = "0.8.20"

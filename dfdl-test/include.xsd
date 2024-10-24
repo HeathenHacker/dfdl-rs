@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+            xmlns:dfdl="http://www.ogf.org/dfdl/dfdl-1.0/">
+    <xs:complexType name="test">
+        <xs:sequence>
+            <xs:element name="a" type = "xs:int"/>
+            <xs:element name="b" type = "xs:int"/>
+            <xs:element name="c" type = "xs:double"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
