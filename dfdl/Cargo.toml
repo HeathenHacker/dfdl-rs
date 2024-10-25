@@ -1,10 +1,13 @@
 [package]
-authors = ["Freyja Walberg"]
 year = "2024"
 license = "MIT"
 name = "dfdl"
 version = "0.1.0"
 edition = "2021"
+description = "A rust implementation of the DFDL Specification from the OGF"
+keywords = ["dfdl", "encoding", "parsing"]
+categories = ["parsing", "encoding"]
+repository = "https://github.com/HeathenHacker/dfdl-rs"
 
 [dependencies]
 serde = { version = "1.0.210", optional = true }
