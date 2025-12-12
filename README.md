@@ -1,7 +1,5 @@
-# dfdl
+# A DFDL Implementation for Rust
 
-A DFDL Implementation for Rust
-==============================
 <div class="warning">Still In early development, no acutual functionality provided yet</div>
 
 The [Data Format Description Language (DFDL)](https://ogf.org/ogf/doku.php/standards/dfdl/dfdl) is a
@@ -20,4 +18,12 @@ Aims:
 
 [`serde`]: https://serde.rs
 
-License: MIT
+# License
+
+MIT
+
+# Similar projects
+
+- [PDL](https://github.com/google/pdl/)
+- [Kaitai](https://kaitai.io)
+
